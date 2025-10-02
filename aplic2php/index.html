@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Formulário de envio de dados</title>
+</head>
+<body>
+
+    <section>
+        <form action="src/php/processa.php" method="post" onsubmit="return validaFormulario()">
+            <div class="title">
+                Formulário de Contato
+            </div>
+            <div class="aling-subtitle">
+            <label for="nome">Nome: </label><br>
+            </div>
+            <input type="text" class="caixa-text" name="nome" id="nome" placeholder="Digite seu Nome"><br><br>
+
+            <div class="aling-subtitle">
+            <label for="email">Email: </label><br>
+            </div>
+            <input type="email" class="caixa-text" name="email" id="email" placeholder="Digite seu E-mail"><br><br>
+
+            <button type="reset" class="btn-enviar">Limpar</button>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
