@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Formulário de Teste</title>
+</head>
+<body>
+    <section>
+        <form action="src/php/processa.php" method="POST">
+            <div class="title">
+                Formulário de Contato
+            </div>
+            <label for="nome">Nome: </label><br>
+            <input type="text" class="caixa-text" id="nome" name="nome" required></input><br><br>
+
+            <label for="email">E-mail: </label><br>
+            <input type="email" class="caixa-text" id="email" name="email" required></input><br><br>
+
+            <input type="submit" class="btn-enviar" value="Enviar"></input>
+        </form>
+    </section>
+</body>
+</html>
