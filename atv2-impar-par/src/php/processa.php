@@ -9,7 +9,7 @@
 
         $num = $_POST['num'] ?? '';
 
-        if(empty($num)) {
+        if(empty($num) || !is_numeric($num)) {
 
                 sair();
                 echo "<div class='caixa'>Por favor, digite um número válido.</div><br>"; 
