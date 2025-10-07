@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+
+    <section>
+        <img class="kuromi" src="src/imgs/kuminerd.png" alt="KumiNerd">
+        <form action="src/php/processa.php" method="post" onsubmit="return validaFormulario()">
+            <div class="title">
+                Tabuada Interativa
+            </div>
+            <input type="text" class="caixa-text" name="num" id="num" placeholder="Digite um número"><br><br>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
