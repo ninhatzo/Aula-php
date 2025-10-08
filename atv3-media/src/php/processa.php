@@ -88,8 +88,6 @@ function sair() {
     echo "<br><a href='../../index.html'>Voltar</a>";
 }
 
-//$resultado = "";
-
 if($_SERVER['REQUEST_METHOD']==="POST") {
 
     $nota1 = $_POST["nota1"] ?? '';
