@@ -69,13 +69,6 @@ body {
     z-index: 1;
 }
 
-.title {
-    text-transform: uppercase;
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: rgb(108, 141, 148);
-}
-
 a {
     position: fixed;
     text-decoration: none;

@@ -37,14 +37,6 @@ body {
     box-shadow: 0 0 15px #211e19;
 }
 
-.title {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 25px;
-    color: rgb(130, 98, 133);
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
-}
-
 .esnupi1 {
     margin-top: 0vh;
     margin-left:0vh;
