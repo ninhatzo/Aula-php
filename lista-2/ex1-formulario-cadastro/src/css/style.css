@@ -1,0 +1,47 @@
+/* Página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    background-color: white;
+    width: 320px;
+    margin: 40px auto;   /* centraliza e desce um pouco */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Labels */
+label {
+    display: block;     /* evita ficar torto */
+    margin-top: 10px;
+}
+
+/* Inputs de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* impede ultrapassar a largura */
+}
+
+/* Botão */
+input[type="submit"] {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+/* Hover simples */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
