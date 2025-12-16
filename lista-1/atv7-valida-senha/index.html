@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Validação de Senha</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+<form method="post" action="src/php/processa.php" onsubmit="return validarSenha()">
+    <label>Senha:</label><br>
+    <input type="password" id="senha" name="senha">
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+
+<script src="src/js/script.js"></script>
+</body>
+</html>

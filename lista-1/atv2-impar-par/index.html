@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Ímpar ou par</title>
+</head>
+<body>
+
+    <section>
+        <img src="src/imgs/numeros.png" alt="Flor branca superior esquerda">
+        <form action="src/php/processa.php" method="post" onsubmit="return validaFormulario()">
+            <div class="title">
+                Ímpar ou Par
+            </div>
+            <input type="text" class="caixa-text" name="num" id="num" placeholder="Digite um número inteiro"><br><br>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+        <div class="numeros2"><img src="src/imgs/numeros.png" alt="Flor branca superior esquerda"></div>
+    </section>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
